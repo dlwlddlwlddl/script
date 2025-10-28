@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<head>
+  <title>QUEEN ALBUMS</title>
+  <style>
+    :root {
+      --bg: #0b0014;
+      --accent: #b833ff;
+      --text: #fff;
+      --muted: #ccc;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 0 20px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 56px;
+      background: linear-gradient(to right, #00c3ff, #b833ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .sub {
+      text-align: center;
+      color: var(--muted);
+      margin-bottom: 40px;
+    }
+
+ 
+    .album-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 26px;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px 80px;
+    }
+
+    .album {
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .album img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid #333;
+      transition: transform 0.3s;
+    }
+
+    .album:hover img {
+      transform: scale(1.05);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.5);
+    }
+
+    .album h3 {
+      font-size: 18px;
+      margin: 10px 0 4px;
+    }
+
+    .album p {
+      font-size: 14px;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <header>QUEEN ALBUMS</header>
+  <div class="sub">퀸의 대표 앨범들</div>
+
+  <main>
+    <div class="album-gallery">
+      <div class="album">
+        <img src="album1.jpg" alt="Queen (1973)">
+        <h3>Queen</h3>
+        <p>1973</p>
+      </div>
+
+      <div class="album">
+        <img src="album4.jpg" alt="A Night at the Opera (1975)">
+        <h3>A Night at the Opera</h3>
+        <p>1975</p>
+      </div>
+
+      <div class="album">
+        <img src="album6.jpg" alt="News of the World (1977)">
+        <h3>News of the World</h3>
+        <p>1977</p>
+      </div>
+
+      <div class="album">
+        <img src="album7.jpg" alt="Jazz (1978)">
+        <h3>Jazz</h3>
+        <p>1978</p>
+      </div>
+
+      </div>
+    </div>
+  </main>
+</body>
+</html>
