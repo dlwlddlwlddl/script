@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<head>
+  <title>밴드 소개 | QUEEN</title>
+  <style>
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+    }
+
+
+    .back a{
+      color:#fff;
+       text-decoration:none;
+       font-weight:600;
+       padding:8px 12px;
+       border:1px solid #555;
+        border-radius:8px;
+      transition: background .25s, transform .25s;
+    }
+    .back a:hover{ background:#333; transform: translateX(-2px); }
+
+    .title{
+      text-align:center; margin: 26px 0 8px 0;
+    }
+    .title h1{
+      font-size: 56px; margin:0;
+      background: linear-gradient(to right, #00c3ff, #b833ff);
+      letter-spacing: .5px;
+    }
+    .subtitle{
+      text-align:center; color:var(--muted); margin-bottom: 24px; font-size:14px;
+    }
+
+    main{ max-width: 980px; margin: 0 auto; padding: 16px 20px 60px; }
+
+   
+    section{
+      background: rgba(0,0,0,.5);
+      border: 1px solid #444;
+      border-radius: 14px;
+      padding: 22px;
+      margin: 16px 0 22px;
+    }
+    section h2{
+      margin:0 0 12px;
+      font-size: 24px; font-weight: 700;
+      color: var(--accent);
+      letter-spacing: .2px;
+    }
+    section p{ line-height: 1.8; color:#e9e9e9; margin: 10px 0; }
+    .muted{ color: var(--muted); }
+
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap:14px;
+    }
+    .card{
+      border:1px solid #3d3d3d; border-radius:12px;
+      background: rgba(0,0,0,.35); padding:16px;
+    }
+    .card h3{ margin:0 0 6px; font-size:18px; color:#fff; }
+    .card p{ margin:0; color:#dcdcdc; line-height:1.7; }
+
+
+    .timeline{ border-left:2px solid #555; margin-left:8px; padding-left:14px; }
+    .event{ margin:10px 0; }
+    .event .year{ color:#b7b7b7; font-weight:600; margin-right:6px; }
+    .event .desc{ color:#eaeaea; }
+
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="back"><a href="fdfdfdWls.html">← 메인으로</a></div>
+
+  </header>
+
+  <div class="title">
+    <h1>QUEEN – 밴드 소개</h1>
+  </div>
+  <div class="subtitle">영국 런던(1970) · 장르 혼종의 아이콘 · 스튜디오 실험과 무대 연출의 정점</div>
+
+  <main>
+    <section id="overview">
+      <h2>밴드 개요 Overview</h2>
+      <p>
+        퀸(Queen)은 1970년 런던에서 결성된 록 밴드로, 장엄한 하모니와 실험적 스튜디오 워크, 그리고 극적인 무대 연출로 대중음악사의
+        기준점을 세운 팀으로 평가된다. 대표작 <span class="muted">“Bohemian Rhapsody”(1975)</span>는
+        오페라·발라드·하드록을 한 곡에 융합해 전례 없는 형식을 완성했다.
+      </p>
+      <p class="muted">구성원: Freddie Mercury(보컬/피아노), Brian May(기타), Roger Taylor(드럼), John Deacon(베이스).</p>
+    </section>
+
+    <section id="sound">
+      <h2>사운드 특징 Sound Signature</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>다성 코러스 & 오버더빙</h3>
+          <p>세 멤버가 겹겹이 쌓아 올린 보컬 하모니와 테이프 오버더빙으로 웅장한 합창 질감을 구현.</p>
+        </div>
+        <div class="card">
+          <h3>장르 혼합 실험</h3>
+          <p>하드록, 글램, 팝, 오페라, 디스코까지 융합. 곡 내 분위기 전환이 극적이며 연출적.</p>
+        </div>
+        <div class="card">
+          <h3>기타 오케스트레이션</h3>
+          <p>브라이언 메이의 레이어드 기타 편곡으로 오케스트라 같은 텍스처를 만듦.</p>
+        </div>
+        <div class="card">
+          <h3>관객 참여형 퍼포먼스</h3>
+          <p>“Radio Ga Ga” 등의 떼창/클랩 유도 등 라이브에서의 상호작용이 정체성의 일부.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <h2>주요 업적 Highlights</h2>
+      <ul class="muted" style="margin:0; padding-left:18px; line-height:1.9;">
+        <li>“Bohemian Rhapsody”(1975) – 싱글·뮤직비디오 혁신의 상징적 작품</li>
+        <li>“A Night at the Opera”(1975) – 스튜디오 프로덕션의 교과서</li>
+        <li>Live Aid(1985) – 대중음악 역사상 가장 상징적 라이브 중 하나</li>
+        <li>글로벌 셀링 수천만 장, 다수의 음악상 및 로큰롤 명예의 전당(2001) 등재</li>
+      </ul>
+    </section>
+
+    <section id="timeline">
+      <h2>타임라인 Timeline</h2>
+      <div class="timeline">
+        <div class="event"><span class="year">1970</span><span class="desc">퀸 결성 (런던)</span></div>
+        <div class="event"><span class="year">1975</span><span class="desc">“Bohemian Rhapsody” 발표, 전 세계적 반향</span></div>
+        <div class="event"><span class="year">1980</span><span class="desc">“Another One Bites the Dust”로 사운드 스펙트럼 확장</span></div>
+        <div class="event"><span class="year">1985</span><span class="desc">Live Aid 전설의 무대</span></div>
+        <div class="event"><span class="year">1991</span><span class="desc">Freddie Mercury 서거</span></div>
+        <div class="event"><span class="year">2000s~</span><span class="desc">퀸+게스트 형태로 투어 지속, 리바이벌 & 재평가</span></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
